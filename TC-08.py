@@ -9,11 +9,7 @@ from agentfield import Agent
 from agentfield.types import HarnessConfig
 
 async def test():
-<<<<<<< HEAD
-    cwd = "/home/sridharvetrivel/test/harness-test"
-=======
     cwd = "/home/sridharvetrivel/harness-test"
->>>>>>> a3a5bb2 (New cases 4-8)
     agent = Agent(
         node_id="test-file-edit",
         harness_config=HarnessConfig(provider="claude-code"),
