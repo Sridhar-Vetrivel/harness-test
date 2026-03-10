@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 .env
+=======
+.env
+.git
+>>>>>>> 5343a9d (adding gitignore)
