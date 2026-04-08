@@ -15,7 +15,7 @@ class EditResult(BaseModel):
     description: str
 
 async def test():
-    cwd = "/home/sridharvetrivel/test/harness-test"
+    cwd = "/home/sridharvetrivel/harness-test"
     with open(os.path.join(cwd, "calc.py"), "w") as f:
         f.write("def multiply(a, b):\n    return a * b\n")
 
